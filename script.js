@@ -17,3 +17,6 @@ const template = `
     <p>{{content}}</p>
     <p>Author: {{author}}</p>
 `;
+
+const app = document.getElementById('app');
+app.innerHTML = renderTemplate(template, data);
